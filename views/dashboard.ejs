@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Painel de Controle!</h1>
+    <p>Você está logado.</p>
+
+    <form action="/users/dashboard" method="post">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <button type="submit">Executar Ação</button>
+    </form>
+
+    <a href="/users/logout">Sair</a>
+</body>
+</html>
