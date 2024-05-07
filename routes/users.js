@@ -24,6 +24,8 @@ router.get("/login", csrfProtection, (req, res) => {
 router.post("/login", csrfProtection, userController.loginUser);
 
 
+
+
 router.get("/logout", userController.logoutUser);
 
 

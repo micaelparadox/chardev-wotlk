@@ -20,6 +20,7 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.3",
-    "nodemailer": "^6.9.13"
+    "nodemailer": "^6.9.13",
+    "wow-model-viewer": "^1.3.4"
   }
 }
